@@ -115,3 +115,8 @@
 			});
 
 })(jQuery);
+
+function toggleFlip() {
+	var flipCard = document.querySelector('.flip-card');
+	flipCard.classList.toggle('flipped');
+}
