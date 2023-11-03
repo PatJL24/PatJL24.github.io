@@ -116,7 +116,9 @@
 
 })(jQuery);
 
-function toggleFlip() {
+function toggleFlipCard() {
 	var flipCard = document.querySelector('.flip-card');
-	flipCard.classList.toggle('flipped');
-}
+	flipCard.classList.toggle('flip-card-click');
+  }
+  
+  
